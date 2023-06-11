@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# 🌐 AI-Enabled FinTech B2B Invoice Management Application - [DEMO](https://drive.google.com/file/d/1ma4deNGn0aF4oW27GTSH0jssG5VfT-LU/view?usp=sharing)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+---
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🗒️ Introduction to B2B Operations
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The B2B world operates differently from the B2C or C2C world. Businesses work with other businesses on credit. When a buyer business orders goods from the seller business, the seller business issues an invoice for the same. This invoice for the goods contains various information like the details of the goods purchased and when it should be paid. This is known in accounting terminology as “Accounts Receivable”
 
-### `npm test`
+---
+## ❓ Problem Statement
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- In the ideal world, the buyer business should payback within the stipulated time (i.e. the Payment Term). However, in the real world, the buyer business seldom pays within their established time frame, and this is where the Account receivables Department comes into picture.
+- Every business consists of a dedicated Account receivables Department to collect and track payment of invoices.
+- It consists of a Account receivables team that is responsible for:
+    - Collecting payments from customers for their past due invoices.
+    - Sending reminders and follow ups to the customers for payments to be made.
+    - Looking after the entire process of getting the cash inflow.
+    - Help the company get paid for the services and products supplied.
+- Build a Machine Learning Model to predict the payment date of an invoice when it gets created in the system.
+- Build a full stack Invoice Management Application
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## :fire: Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Machine Learning Model to predict the payment date of an invoice when it gets created in the system.
+- A Receivables Dashboard to visualize data in the form of grids.
+- ADD, EDIT and DELETE functionalities.
+- Easy naviagtion implemented through pagination.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## :bulb: Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Machine Learning
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Pandas**
+- **Numpy**
+- **Matplotlib**
+- **Scikit-learn**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Frontend
 
-## Learn More
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **JQuery**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Backend
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Java**
+- **Servlets**
+- **JDBC**
+- **JSP**
+- **MySQL**
 
-### Code Splitting
+### Tools
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Eclipse IDE**
+- **TomCat Server**
+- **Postman API Testing Tools**
+- **SQL Yog**
+- **Jupyter Notebook**
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+---
+## :iphone: Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<img src="src/assets/image1.png"/>
+<img src="src/assets/image2.png"/>
+<img src="src/assets/image3.png"/>
+<img src="src/assets/image4.png"/>
+<img src="src/assets/image5.png"/>
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
